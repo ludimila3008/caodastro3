@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">caodastro</string>
+    <string name="action_settings">Settings</string>
+    <string name="Button">Entrat</string>
+    <string name="Button2">Cadastrar-se</string>
+    <string name="Buttoncaes">Botaocaes</string>
+    <string name="Buttoncrianças">Botaocrianças</string>
+    <string name="title_activity_activity2">activity2</string>
+    <string name="title_activity_login_activitydoentrar">Sign in</string>
+    <string name="title_activity_cadastropais">cadastropais</string>
+    <string name="Insiraseuemail">Insira seu email</string>
+    <string name="Senha">Senha</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="Confirmar">Cofirmar</string>
+    <string name="Email">Email:</string>
+    <string name="title_activity_activityentrar">activityentrar</string>
+</resources>

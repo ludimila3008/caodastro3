@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:fitsSystemWindows="true"
+    tools:context="com.tecnomaniacos.caodastro.MainActivity1"
+    android:background="@color/colorAccent">
+
+    <Button
+        android:text="@string/Button2"
+        android:layout_width="108dp"
+        android:layout_height="34dp"
+        android:id="@+id/button2"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="190dp"
+        android:layout_gravity="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        tools:text="Cadastrar-se"
+        tools:style="@android:style/Widget.Button"
+        android:textSize="12sp"
+        tools:backgroundTint="@color/colorPrimaryDark"
+         />
+
+    <Button
+        android:text="@string/Button"
+        android:layout_width="79dp"
+        android:layout_height="37dp"
+        android:id="@+id/button"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="300dp"
+        android:layout_gravity="center"
+
+        tools:text="Entrar"
+        tools:style="@android:style/Widget.Button"
+        android:textSize="12sp"
+        tools:backgroundTint="@color/colorPrimary"
+        android:onClick="activity_activityentrar"
+
+    />
+
+    <ImageView
+        android:layout_width="215dp"
+        tools:ignore="ContentDescription"
+        android:layout_height="191dp"
+        android:layout_marginBottom="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="60dp"
+        android:background="@drawable/caodastro2"
+        android:id="@+id/imageView" />
+
+</android.support.design.widget.CoordinatorLayout>
