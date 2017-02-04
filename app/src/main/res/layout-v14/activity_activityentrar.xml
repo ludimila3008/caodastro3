@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.tecnomaniacos.caodastro.activityentrar"
+    android:background="@color/colorAccent">
+
+
+        <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/senha"
+        android:layout_toRightOf="@+id/floatingActionButton2"
+        android:layout_toEndOf="@+id/floatingActionButton2"
+        android:weightSum="1" android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        android:id="@+id/floatingActionButton2"
+        tools:fabSize="mini"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:textSize="14sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Confirmar"
+        android:text="@string/Confirmar"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        tools:style="@android:style/Widget.Button"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/senha"
+            android:maxLines="1"
+            android:inputType="numberPassword"
+            android:hint="@string/Password"
+            android:layout_marginTop="46dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:theme="@style/Base.V7.Widget.AppCompat.EditText"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    <TextView
+    android:text="@string/Email"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView2"
+    tools:text="Senha:"
+    android:textSize="21sp"
+    android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+    android:layout_marginTop="54dp"
+        tools:targetApi="ice_cream_sandwich"
+    android:textColor="@android:color/black"
+        android:layout_below="@+id/email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:hint="@string/Email2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:padding="1dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:theme="@style/Base.V7.Widget.AppCompat.EditText"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        tools:text="Email:"
+        android:textSize="21sp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+

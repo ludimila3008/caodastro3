@@ -17,4 +17,8 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="TextAppearance.AppCompat.Button">appcompact</style>
+
+    <style name="Base.V7.Widget.AppCompat.EditText">style</style>
+
 </resources>

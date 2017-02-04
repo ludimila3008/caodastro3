@@ -54,8 +54,8 @@ public class activityentrar extends AppCompatActivity {
                     else {
                         Toast.makeText(getApplicationContext(), "Usuário ou senha errados", Toast.LENGTH_SHORT).show();}
                 }
-            });
-                ;;}}}
+            };
+                ;;});}}}
 
 
 

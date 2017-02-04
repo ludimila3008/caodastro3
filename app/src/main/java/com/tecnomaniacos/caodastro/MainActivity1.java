@@ -23,7 +23,7 @@ public class MainActivity1 extends AppCompatActivity{
 
 
     @Overrid
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main1);
         caodastro2 = (ImageView) findViewById(R.id.imageView);
@@ -45,4 +45,11 @@ public class MainActivity1 extends AppCompatActivity{
                         startActivity(intent);
 
 
-                }}); }});}}
+                }}); }});}
+
+
+    }
+
+
+
+
