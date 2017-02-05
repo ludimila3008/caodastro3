@@ -9,32 +9,43 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
-        android:fullBackupContent="true"
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.tecnomaniacos.caodastro.MainActivity1"
+            android:name=".MainActivity1"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
-
             <intent-filter tools:ignore="GoogleAppIndexingWarning">
                 <action android:name="android.intent.action.VIEW" />
-                <action android:name="com.tecnomaniacos.caodastro.MainActivity1"/>
+                <action android:name="com.tecnomaniacos.caodastro.MainActivity1" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tecnomaniacos.caodastro.activity2"
+            android:name=".activity2"
             android:label="@string/title_activity_activity2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.tecnomaniacos.caodastro.activityentrar"
+            android:name=".activityentrar"
             android:label="@string/title_activity_activityentrar"
             android:theme="@style/AppTheme.NoActionBar" />
-
+        <activity
+            android:name=".perfildaOng"
+            android:label="@string/title_activity_perfilda_ong"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".formularioOng"
+            android:label="@string/title_activity_formulario_ong"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".formularioPais"
+            android:label="@string/title_activity_formulario_pais"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

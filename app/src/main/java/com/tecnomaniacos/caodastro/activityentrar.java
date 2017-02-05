@@ -44,18 +44,23 @@ public class activityentrar extends AppCompatActivity {
         floatingActionButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View View) {
-                Intent intent = new Intent(activityentrar.this,MainActivity1 .class);
+                Intent intent = new Intent(activityentrar.this,MainActivity1 .class);}
 
 
-                public void Confirmar (View View) {
-                    if(email.getText().toString().equals("ONGABPA@gmail.com"); {
-                            senha.getText().toString().equals(1234));
-                        setContentView(R.layout.activity_perfil_ong);
-                    else {
-                        Toast.makeText(getApplicationContext(), "Usuário ou senha errados", Toast.LENGTH_SHORT).show();}
+            public void Confirmar (View View) {
+                if(email.getText().toString().equals("ONGABPA@gmail.com")) {
+                    senha.getText().toString().equals(1234);
+                    setContentView(R.layout.activity_perfilda_ong);
                 }
+                else {
+                        Toast.makeText(getApplicationContext(), "Usuário ou senha errados", Toast.LENGTH_SHORT).show();}
+
             };
-                ;;});}}}
+            ;;});}}
+
+
+
+
 
 
 

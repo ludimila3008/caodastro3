@@ -7,7 +7,7 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 app:layout_behavior="@string/appbar_scrolling_view_behavior"
 tools:context="com.tecnomaniacos.caodastro.MainActivity1"
-    android:background="@color/colorAccent">
+    android:background="@color/white">
 
     <Button
         android:text="@string/Button2"

@@ -14,4 +14,7 @@
     <string name="Confirmar">Cofirmar</string>
     <string name="Email">Email:</string>
     <string name="title_activity_activityentrar">activityentrar</string>
+    <string name="title_activity_perfilda_ong">perfildaOng</string>
+    <string name="title_activity_formulario_ong">formularioOng</string>
+    <string name="title_activity_formulario_pais">formularioPais</string>
 </resources>
