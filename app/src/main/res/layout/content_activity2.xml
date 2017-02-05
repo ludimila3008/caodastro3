@@ -42,19 +42,7 @@
 
 
     <ImageView
-        android:layout_width="130dp"
-        android:layout_height="100dp"
-        android:contentDescription="@null"
-        android:background="@drawable/cao"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="350dp"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="31dp"
-        android:layout_marginEnd="31dp"/>
-
-
-    <ImageView
+        android:id="@+id/imagemcrianca"
         android:layout_width="130dp"
         android:contentDescription="@null"
         android:layout_height="100dp"
@@ -66,4 +54,14 @@
         android:layout_marginStart="31dp"
         android:layout_marginBottom="350dp"
         />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:contentDescription="@null"
+        android:background="@drawable/cao"
+        android:layout_alignTop="@+id/imagemcrianca"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:id="@+id/imageView3" />
 </RelativeLayout>

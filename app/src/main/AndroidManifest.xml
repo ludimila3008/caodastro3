@@ -45,6 +45,10 @@
         <activity
             android:name=".formularioPais"
             android:label="@string/title_activity_formulario_pais"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".perfildospais"
+            android:label="@string/title_activity_perfildospais"
             android:theme="@style/AppTheme"></activity>
     </application>
 

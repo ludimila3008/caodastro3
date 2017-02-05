@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.TextView;
 import android.widget.TextView;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 
 public class formularioPais extends AppCompatActivity {
@@ -38,8 +39,24 @@ public class formularioPais extends AppCompatActivity {
         editText2 =(EditText) findViewById(R.id.editText2);
         editText3 =(EditText) findViewById(R.id.editText3);
         imageView2 =(ImageView)findViewById(R.id.imageView2);
-        button5 =(Button) findViewById(R.id.button5);
+        button5 =(Button) findViewById(R.id.button5);}
+
+    public void button5 (View View) {
+        if (editText.getText().toString().equals("Maria")) {
+            editText2.getText().toString().equals("91111-1111");
+            editText3.getText().toString().equals("11.111-111");
+            setContentView(R.layout.content_perfildospais);
+        }
+        else { Toast.makeText(getApplicationContext(), "Campo Obrigatório", Toast.LENGTH_SHORT).show();{
+        }
 
 
 
-}}
+
+
+        }
+    }
+}
+
+
+
