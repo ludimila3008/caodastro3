@@ -80,40 +80,6 @@
         android:layout_toLeftOf="@+id/buttoncadastrocaes"
         android:layout_toStartOf="@+id/buttoncadastrocaes" />
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbarperfil"
-        android:layout_width="400dp"
-        android:layout_height="288dp"
-        android:background="@android:color/holo_purple"
-        app:popupTheme="@style/AppTheme.PopupOverlay"
-        android:layout_below="@+id/appBarLayout"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageView
-        android:layout_width="80dp"
-        tools:ignore="ContentDescription"
-        android:layout_height="80dp"
-        android:background="@drawable/iconeusuarionovo"
-        android:id="@+id/imageView4"
-        android:layout_above="@+id/textView8"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp" />
-
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        tools:text="ONG ABPA"
-        android:textColor="@color/white"
-        android:id="@+id/textView7"
-        tools:fontFamily="sans-serif"
-        tools:textSize="20sp"
-        android:layout_above="@+id/textView8"
-        android:layout_toRightOf="@+id/textView8"
-        android:layout_toEndOf="@+id/textView8" />
-
     <TextView
         android:layout_width="100dp"
         android:layout_height="30dp"
@@ -127,4 +93,36 @@
         android:layout_alignStart="@+id/imageView4"
         android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarperfil"
+        android:layout_width="400dp"
+        android:layout_height="288dp"
+        android:background="@drawable/patinhas"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="80dp"
+        tools:ignore="ContentDescription"
+        android:layout_height="80dp"
+        android:background="@drawable/iconeusuarionovo"
+        android:id="@+id/imageView4"
+        android:layout_above="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:text="ONG ABPA"
+        android:textColor="@color/white"
+        android:id="@+id/textView7"
+        tools:fontFamily="sans-serif"
+        tools:textSize="20sp"
+        android:layout_alignBottom="@+id/toolbarperfil"
+        android:layout_toLeftOf="@+id/textView11"
+        android:layout_toStartOf="@+id/textView11" />
 </RelativeLayout>

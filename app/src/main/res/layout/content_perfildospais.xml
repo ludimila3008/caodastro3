@@ -74,7 +74,7 @@
         android:id="@+id/toolbarperfilpais"
         android:layout_width="400dp"
         android:layout_height="288dp"
-        android:background="@android:color/holo_red_light"
+        android:background="@drawable/quebracabecacerto"
         app:popupTheme="@style/AppTheme.PopupOverlay"
         android:layout_below="@+id/appBarLayout"
         android:layout_alignParentLeft="true"
@@ -91,18 +91,6 @@
         android:layout_alignParentStart="true"
         android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp" />
-
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        tools:text="Maria"
-        android:textColor="@color/white"
-        android:id="@+id/textViewnome"
-        tools:fontFamily="sans-serif"
-        tools:textSize="20sp"
-        android:layout_above="@+id/textViewtelefone"
-        android:layout_toRightOf="@+id/textViewtelefone"
-        android:layout_toEndOf="@+id/textViewtelefone" />
 
 
     <TextView
@@ -128,5 +116,17 @@
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@+id/buttoncadastrocrianças"
         android:layout_toStartOf="@+id/buttoncadastrocrianças" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:text="Maria"
+        android:textColor="@android:color/background_light"
+        android:id="@+id/textViewnome"
+        tools:fontFamily="sans-serif"
+        tools:textSize="26sp"
+        android:layout_above="@+id/textViewtelefone"
+        android:layout_toLeftOf="@+id/textViewnumerocep"
+        android:layout_toStartOf="@+id/textViewnumerocep" />
 
 </RelativeLayout>
